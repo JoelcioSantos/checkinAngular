@@ -1,0 +1,41 @@
+.view {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.panel-dimension {
+    width: 80%;
+
+    &.toolbar-panel {
+        margin-top: 20px;
+    }
+}
+
+.buttons {
+    display: flex;
+}
+
+.search-panel {
+    display: flex;
+    height: 40px;
+    width: 240px;
+    align-items: center;
+}
+
+.search-field {
+    height: 38px;
+    width: 200px;
+    border: none;
+    outline: none !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.637);
+    border-radius: 3px;
+}
+
+.add {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+}

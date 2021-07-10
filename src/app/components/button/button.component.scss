@@ -1,0 +1,22 @@
+.default-button {
+    background-color:rgb(240, 240, 240, 0.637) !important;
+    color: black !important;
+    border: none;
+    margin: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.637);
+    width: 40px;
+    height: 38px;
+
+    &.danger {
+        background-color: rgb(212, 0, 0) !important;
+        color: white !important;
+
+        &.close {
+            margin-left: 16px;
+        }
+    }
+}
+
+.default-button:active {
+    transform: scale(0.90) !important;
+}

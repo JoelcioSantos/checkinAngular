@@ -1,0 +1,14 @@
+.modal-form {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.close-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -8px;
+    margin-right: -8px;
+}
